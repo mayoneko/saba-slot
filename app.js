@@ -47,7 +47,7 @@ function mousePressed() {
         move[2] = false;
     }
     if (mouseX < width / 2 + 100 && mouseX > width / 2 - 100 && mouseY < height / 2 + 340 && mouseY > height / 2 + 260) {
-        allMove()
+        allMove();
     }
 }
 
@@ -63,7 +63,7 @@ function keyPressed() {
             move[2] = false;
             break;
         case DOWN_ARROW:
-            allMove()
+            allMove();
             break;
         case ENTER:
             saba = true;
